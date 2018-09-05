@@ -1,11 +1,12 @@
 TEMPLATE = app
-CONFIG += console
+CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
+SOURCES += \
     bici.cpp \
-    bicipuerto.cpp
+    bicipuerto.cpp \
+    main.cpp
 
 HEADERS += \
     bici.h \
