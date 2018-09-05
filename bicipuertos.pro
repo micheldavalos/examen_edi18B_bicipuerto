@@ -4,7 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
-    bici.cpp
+    bici.cpp \
+    bicipuerto.cpp
 
 HEADERS += \
-    bici.h
+    bici.h \
+    bicipuerto.h
